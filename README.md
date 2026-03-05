@@ -12,9 +12,7 @@ month\_data/graphs -> Tracking bee movements from subset of month-long data.
 
 month\_data/bees -> All 289 csv data with text files containing their names to combine them.
 
-month\_data/beeActivity.csv -> Subset of data after grouping track\_ids with <5 second difference.
-
-month\_data/allActivity.csv -> Subset of data before processing.
+month\_data/beeActivity.csv -> Subset of data (first four files) after grouping track\_ids with <5 second difference.
 
 ### CREDITS
 
