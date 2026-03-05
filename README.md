@@ -2,41 +2,19 @@
 
 ### FILES
 
-worker05.txt -> Example dataset from BeeCam-AprilTag
+worker05.txt -> Example dataset from BeeCam-AprilTag,
 
-BeeCam-AprilTag.ipynb -> Graphs BeeCam-AprilTag example data y-position over time
+beecam-graphs -> Folder containing BeeCam-AprilTag graphs,
 
-beecam-graphs -> Folder containing BeeCam-AprilTag graphs
+month\_data/cheatsheet.csv -> Manually corroborated event classification results for beeActivity.csv
 
-month\_data/BeeClassify.ipynb -> Converts multiple csv files subset into one csv file and graphs the y movement across frames
+month\_data/graphs -> Tracking bee movements from subset of month-long data.
 
-month\_data/cheatsheet.csv -> Manually corroborated event classification results for BeeClassify.ipynb
+month\_data/bees -> All 289 csv data with text files containing their names to combine them.
 
-month\_data/Rules.ipynb -> Implementing all methods for event classification on subset of month data. Contains recall, precision, f1-score, accuracy and class distribution
+month\_data/beeActivity.csv -> Subset of data after grouping track\_ids with <5 second difference.
 
-month\_data/Rules-Full.ipynb -> Implementing compound event for all 289 csv in dataset
-
-month\_data/graphs -> Tracking bee movements from subset of month-long data
-
-month\_data/\*.png -> Generated visualizations from Rules.ipynb and Rules-Full.ipynb
-
-month\_data/bees -> All 289 csv data with text files containing their names to combine them
-
-month\_data/beeActivity.csv -> 4 csv files combined and separated by event id, for use in Rules.ipynb
-
-month\_data/Graphing.ipynb -> graphing the trajectory over canvas.png
-
-### USER-DEFINED VALUES
-
-t2 -> Distance that must be covered to classify an event for DISP\_START and DISP\_END.
-
-angle -> Angle threshold (in degrees) for verifying the classification for an event.
-
-### GRAPH FORMAT
-
-x-axis -> Frames of event in order
-
-y-axis -> Y position of bee at event index
+month\_data/allActivity.csv -> Subset of data before processing.
 
 ### CREDITS
 
