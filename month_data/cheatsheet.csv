@@ -399,7 +399,7 @@ eventid,event
 397,entering
 398,entering
 399,exiting
-400,unknown
+400,entering
 401,exiting
 402,entering-exiting
 403,entering-exiting
@@ -436,7 +436,7 @@ eventid,event
 434,exiting
 435,exiting-entering
 436,entering
-437,unknown
+437,exiting
 438,exiting
 439,exiting-entering
 440,exiting
